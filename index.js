@@ -17,7 +17,7 @@ getDataFromDb().then(value => {
 
 bot.hears('EMAIL', ctx => ctx.replyWithPhoto('https://memasno.ru/uploads/posts/2021-09/zaskamil-mamonta-chto-za-mem-pro-avito-mamont-kuda-perevodit-2.jpg'));
 
-bot.start(ctx => ctx.reply('Шлом', Markup.keyboard([
+bot.start(ctx => ctx.reply('Шалом', Markup.keyboard([
     ['FAQ', 'EMAIL']
 ]).resize()));
 
