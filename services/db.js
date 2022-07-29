@@ -15,9 +15,7 @@ function getDataFromDb(){
             resolve(result);
         });
         connection.end();
-    })
-    
-    
-}
+    })   
+};
 
 module.exports = getDataFromDb;
